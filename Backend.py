@@ -7,11 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/15lTT_dqfIRkSyN3Mc4FHxLjyeCU7VOaL
 """
 
-!pip uninstall -y torch torchvision torchaudio
-!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+
 
 # Install dependencies
 # !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 !pip install transformers requests beautifulsoup4 pandas numpy pydrive
 
 import torch
@@ -25,7 +26,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 # ---- Step 1: Authenticate and Access Google Drive ----
 scope = ['https://www.googleapis.com/auth/drive']
-service_account_file = "/content/possible-lotus-454715-m2-77512ecfd179.json"  # Change this to your service account JSON key file
+service_account_file = "your-service-account.json"  # Change this to your service account JSON key file
 
 creds = ServiceAccountCredentials.from_json_keyfile_name(service_account_file, scope)
 gauth = GoogleAuth()
