@@ -1,16 +1,30 @@
-# myapp
+# Emotion Guard 💙
 
-A new Flutter project.
+A Flutter-based app designed for child sentiment analysis using BERT and Google Drive integration.
 
-## Getting Started
+## 🚀 Features
+- Weekly Mood Bar Chart 📊
+- Day-wise Mood Overview 📅
+- Alert System 🚨
+- Parental Settings ⚙️
+- Google Drive API for storage ☁️
 
-This project is a starting point for a Flutter application.
+## 🧰 Tech Stack
+- Flutter & Dart
+- Google Drive API
+- BERT-based Sentiment Analysis
+- FL Chart for graphs
+- Project IDX
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Screens
+- Login
+- Dashboard
+- Alerts & Settings
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🏁 Getting Started
+1. Clone this repo
+2. Run `flutter pub get`
+3. Launch with `flutter run`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👨‍💻 Developed for Google Hackathon 2025
+
