@@ -1,0 +1,23 @@
+name: child_emotion
+description: App to visualize children's moods
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.64.0
+  flutter_svg: ^2.0.7
+  http: ^0.13.5
+  provider: ^6.1.1
+  googleapis: any
+  googleapis_auth: any
+  google_sign_in: ^6.1.6
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sentiment_score.json
