@@ -8,7 +8,6 @@ A Flutter-based app designed for child sentiment analysis using BERT and Google 
 ## 🚀 Features
 - Weekly Mood Bar Chart 📊
 - Day-wise Mood Overview 📅
-- Alert System 🚨
 - Parental Settings ⚙️
 - Google Drive API for storage ☁️
 
