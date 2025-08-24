@@ -2,6 +2,9 @@
 
 A Flutter-based app designed for child sentiment analysis using BERT and Google Drive integration.
 
+## ⚙️ Architectural Flow
+![Alt text](assets/SA.jpg)
+
 ## 🚀 Features
 - Weekly Mood Bar Chart 📊
 - Day-wise Mood Overview 📅
